@@ -1,5 +1,5 @@
-# StudentDB
-Student Database Management System
+# Student Database Management
+
 Project Overview
 The Student Database Management System is a comprehensive SQL-based project designed to store and manage student-related data for a fictional educational institution. This system allows the management of various records such as student details, course enrollments, attendance, results, fees, scholarships, and departments.
 
@@ -26,4 +26,5 @@ Database Structure
 The database uses foreign keys to establish relationships between different tables. For example, each student is linked to a department via department_id, and each course enrollment references both the student and the course through student_id and course_id.
 
 Technologies Used
+
 SQL: The query language used to define the database schema, insert data, and perform CRUD operations.
